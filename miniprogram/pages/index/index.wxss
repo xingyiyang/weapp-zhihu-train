@@ -1,0 +1,38 @@
+/**index.wxss**/
+.container{
+  height: 1500rpx;
+}
+.container .search{
+  width: 100%;
+  height: 65rpx;
+  padding: 10rpx 0 10rpx 13rpx;
+  background-color: #2a8ce5;
+}
+
+.container .search-left{
+  flex: 11;
+  background: #4EA3E7;
+  text-align: left;
+  position: relative;
+}
+
+.container .search .search-left input{
+  display: inline-block;
+  height: 65rpx;
+  font-size: 26rpx;
+}
+
+.search-placeholder{
+  color: #8CCEFD;
+  line-height: 20rpx;
+}
+
+.left-icon{
+  display: inline-block;
+  padding-left: 15rpx;
+  padding-right: 10rpx; 
+}
+
+.right-icon{
+  padding: 10rpx 0 10rpx 0;
+}
